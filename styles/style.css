@@ -91,3 +91,8 @@ ul
 {
     list-style-type: circle;
 }
+@media (max-width: 500px) {
+    .main-header-container, .flex-container-body, .flex-container-header {
+      flex-direction: column;
+    }
+  }
